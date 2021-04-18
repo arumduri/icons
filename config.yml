@@ -55,3 +55,4 @@ params:
   expo:                 "https://expo.getbootstrap.com"
   themes:               "https://themes.getbootstrap.com"
   opencollective:       "https://opencollective.com/bootstrap"
+  i18n:                 "https://github.com/arumduri/icons"

@@ -43,7 +43,7 @@
             {{ $svgHtml }}
           </div>
 
-          <h2>Examples</h2>
+          <h2>예시</h2>
           <div class="p-3 p-md-4 border rounded-3 icon-demo-examples">
             <div class="fs-2 mb-3">
               {{ $svgHtml }}
@@ -109,7 +109,7 @@
           <a href="{{ $svgPath }}" class="btn btn-bd-primary mb-4" download>SVG 다운로드</a>
 
           <h2 class="fs-3">아이콘 폰트</h2>
-          <p>웹 폰트를 사용하려면, 복사 붙여 넣기를 해주세요.</p>
+          <p>웹 폰트를 사용하시고 싶으신가요? 복사하고 붙여넣기만 하면 바로 사용할 수 있습니다.<p>
 
           <div class="mb-4">
             {{ $iconFontSnippet := printf `<i class="bi bi-%s"></i>` .File.TranslationBaseName -}}
@@ -117,7 +117,7 @@
           </div>
 
           <h2 class="fs-3">HTML 복사</h2>
-          <p>SVG 를 프로젝트의 코드에 직접 붙여 넣을 수 있습니다.</p>
+          <p>SVG를 프로젝트의 코드에 직접 붙여넣을 수 있습니다.</p>
 
           <div id="copy-error-callout" class="alert alert-info d-none" role="alert"></div>
 
