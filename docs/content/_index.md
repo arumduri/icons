@@ -1,15 +1,15 @@
 ---
 ---
 
-## Install
+## 설치
 
-Bootstrap Icons are published to npm, but they can also be manually downloaded if needed.
+Bootstrap Icons은 npm으로 배포되지만 수동으로 다운로드할 수도 있습니다.
 
 <div class="row my-4">
   <div class="col-md-4">
 {{< md >}}
 ### npm
-Install [Bootstrap Icons](https://www.npmjs.com/package/bootstrap-icons)—including SVGs, icon sprite, and icon fonts—with npm. Then, choose how you'd like to include the icons with the [usage instructions](#usage).
+npm으로 SVG, 아이콘 스프라이트, 아이콘 폰트가 포함된 [Bootstrap Icons](https://www.npmjs.com/package/bootstrap-icons)를 설치하세요. 그런 다음에 [사용법](#사용법)에서 아이콘을 포함할 방법을 선택하면 됩니다.
 
 {{< highlight sh >}}
 npm i bootstrap-icons
@@ -18,16 +18,16 @@ npm i bootstrap-icons
   </div>
   <div class="col-md-4">
 {{< md >}}
-### Download
-[Releases are published on GitHub](https://github.com/twbs/icons/releases/) and include icon SVGs, fonts, license, and readme. Our `package.json` is also included, though our npm scripts are primarily available for our development workflows.
+### 다운로드
+[모든 버전은 GitHub에 게시되며](https://github.com/twbs/icons/releases/), SVG, 폰트, 라이선스, readme가 포함되어 있습니다. 우리의 개발 워크플로에 주로 사용하는 npm 스크립트가 작성된 `package.json`도 포함되어 있습니다.
 
-<a class="btn btn-outline-primary" href="https://github.com/twbs/icons/releases/latest/">Download latest ZIP</a>
+<a class="btn btn-outline-primary" href="https://github.com/twbs/icons/releases/latest/">최신 ZIP 다운로드</a>
 {{< /md >}}
   </div>
   <div class="col-md-4">
 {{< md >}}
 ### CDN
-Include the icon fonts stylesheet—in your website `<head>` or via `@import` in CSS—from our CDN and get started in seconds. [See icon font docs](#icon-font) for examples.
+CDN을 통해서 아이콘 폰트 스타일시트를 웹사이트 내의 `<head>`나 `@import`를 통해 포함시켜서 빠르게 시작하세요. [아이콘 폰트](#아이콘-폰트) 문서에서 예제를 확인할 수 있습니다.
 
 {{< highlight html >}}
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@{{< param version >}}/font/bootstrap-icons.css">
@@ -40,15 +40,15 @@ Include the icon fonts stylesheet—in your website `<head>` or via `@import` in
   </div>
 </div>
 
-## Usage
+## 사용법
 
-Bootstrap Icons are SVGs, so you can include them into your HTML in a few ways depending on how your project is setup. We recommend using a `width: 1em` (and optionally `height: 1em`) for easy resizing via `font-size`.
+Bootstrap Icons는 SVG이기 때문에 프로젝트 구성 방식에 따라 몇 가지 방법으로 이를 HTML에 포함시킬 수 있습니다. `font-size`를 통해 쉽게 크기를 조정할 수 있도록 `width: 1em` (및 선택적으로 `height: 1em`)을 사용하는 것이 좋습니다.
 
 <div class="row my-4">
   <div class="col-md-4">
 {{< md >}}
-### Embedded
-Embed your icons within the HTML of your page (as opposed to an external image file). Here we've used a custom `width` and `height`.
+### 임베드
+아이콘을 (외부 이미지 파일이 아닌) 페이지의 HTML에 임베드합니다. 여기에서는 커스텀 width와 height를 사용하고 있습니다.
 {{< /md >}}
   </div>
   <div class="col-md-8">
@@ -59,10 +59,10 @@ Embed your icons within the HTML of your page (as opposed to an external image f
 <div class="row my-4">
   <div class="col-md-4">
 {{< md >}}
-### Sprite
-Use the SVG sprite to insert any icon through the `<use>` element. Use the icon's filename as the fragment identifier (e.g., `toggles` is `#toggles`). SVG sprites allow you to reference an external file similar to an `<img>` element, but with the power of `currentColor` for easy theming.
+### 스프라이트
+SVG 스프라이트를 사용해서 `<use>` 요소로 아이콘을 삽입합니다. fragment 식별자로는 아이콘의 파일명을 사용합니다 (예: `toggles`는 `#toggles`). SVG 스프라이트에서는 `<img>` 요소와 마찬가지로 외부 파일을 참조할 수 있지만, `currentColor`를 이용해서 간단하게 테마를 설정할 수 있습니다.
 
-**Heads up!** There's an issue with Chrome where [`<use>` doesn't work across domains](https://bugs.chromium.org/p/chromium/issues/detail?id=470601).
+**주의!** Chrome에서 [`<use>`가 여러 도메인 간에 작동하지 않는 문제](https://bugs.chromium.org/p/chromium/issues/detail?id=470601)가 있습니다.
 {{< /md >}}
   </div>
   <div class="col-md-8">
@@ -83,8 +83,8 @@ Use the SVG sprite to insert any icon through the `<use>` element. Use the icon'
 <div class="row my-4">
   <div class="col-md-4">
 {{< md >}}
-### External image
-Copy the Bootstrap Icons SVGs to your directory of choice and reference them like normal images with the `<img>` element.
+### 외부 이미지
+Bootstrap Icons의 SVG를 지정 디렉토리에 복사하면 일반 이미지처럼 `<img>` 요소로 포함시킬 수 있습니다.
 {{< /md >}}
   </div>
   <div class="col-md-8">
@@ -95,10 +95,10 @@ Copy the Bootstrap Icons SVGs to your directory of choice and reference them lik
 <div class="row my-4">
   <div class="col-md-4">
 {{< md >}}
-### Icon font
-Icon fonts with classes for every icon are also included for Bootstrap Icons. Include the icon web fonts in your page via CSS, then reference the class names as needed in your HTML (e.g., `<i class="bi-alarm-clock"></i>`).
+### 아이콘 폰트
+각 아이콘의 클래스를 가진 아이콘 폰트도 Bootstrap Icons에 포함되어 있습니다. CSS를 통해 페이지 내에 아이콘 웹 폰트를 넣어 필요에 따라 HTML 내에서 클래스를 사용할 수 있습니다 (예: `<i class="bi-alarm-clock"></i>`).
 
-Use `font-size` and `color` to change the icon appearance.
+`font-size`나 `color`를 사용해서 아이콘의 모습을 변경할 수 있습니다.
 {{< /md >}}
   </div>
   <div class="col-md-8">
@@ -111,9 +111,10 @@ Use `font-size` and `color` to change the icon appearance.
   <div class="col-md-4">
 {{< md >}}
 ### CSS
-You can also use the SVG within your CSS (**be sure to escape any characters**, such as `#` to `%23` when specifying hex color values). When no dimensions are specified via `width` and `height` on the `<svg>`, the icon will fill the available space.
 
-The `viewBox` attribute is required if you wish to resize icons with `background-size`. Note that the `xmlns` attribute is required.
+CSS 내에서 SVG를 사용할 수도 있습니다 (헥스 색상 값을 지정할 때 `#`은 `%23`로 입력하는 것처럼 **모든 문자를 이스케이프 처리해야 함**). `<svg>`에서 너비와 높이를 통해 크기를 지정하지 않으면 아이콘이 사용 가능한 공간을 채웁니다.
+
+`background-size`로 아이콘의 크기를 조정하려면 `viewBox` 속성이 필요합니다. `xmlns` 속성은 필수 속성입니다.
 {{< /md >}}
   </div>
   <div class="col-md-8">
@@ -135,7 +136,7 @@ The `viewBox` attribute is required if you wish to resize icons with `background
   <div class="col-md-4">
 {{< md >}}
 ## Styling
-Color can be changed by setting a `.text-*` class or custom CSS:
+`.text-*` 클래스 또는 커스텀 CSS로 색상을 변경할 수 있습니다:
 {{< /md >}}
   </div>
   <div class="col-md-8">
@@ -156,8 +157,8 @@ Color can be changed by setting a `.text-*` class or custom CSS:
 <div class="row my-4">
   <div class="col-md-4">
 {{< md >}}
-## Accessibility
-If the icons are not purely decorative, make sure you provide an appropriate text alternative. Depending on which method you're using to add the icons, and where you're using them (e.g. as standalone images, or as the only content of a button or similar control), there are various possible approaches. Here are a few examples:
+## 접근성
+아이콘을 장식용으로만 쓰는 게 아니라면 적절한 대체 텍스트를 제공해야 합니다. 아이콘을 추가할 때 사용한 방법과 아이콘을 사용하는 위치 (예: 독립 이미지 또는 버튼 또는 유사한 컨트롤의 유일한 컨텐츠)에 따라 다양한 방법이 있습니다. 다음은 몇 가지 예시입니다:
 {{< /md >}}
   </div>
   <div class="col-md-8">
@@ -203,21 +204,21 @@ If the icons are not purely decorative, make sure you provide an appropriate tex
 <div class="row my-4">
   <div class="col-md-4">
 {{< md >}}
-## Working with SVGs
-SVGs are awesome to work with, but they do have some known quirks to work around. Given the numerous ways in which SVGs can be used, we haven't included these attributes and workarounds in our code.
+## SVG로 작업하기
+SVG는 작업하기에 훌륭하지만 해결해야 할 몇 가지 알려진 단점이 있습니다. SVG를 사용할 수 있는 방법은 여러가지라는 점을 고려해 이러한 속성과 해결 방법은 코드에 포함하지 않았습니다.
 {{< /md >}}
   </div>
   <div class="col-md-8">
 {{< md >}}
-Known issues include:
+알려진 문제점:
 
-- **SVGs receive focus by default in Internet Explorer and Edge Legacy.** When embedding your SVGs, add `focusable="false"` to the `<svg>` element. [Learn more on Stack Overflow.](https://stackoverflow.com/questions/18646111/disable-onfocus-event-for-svg-element)
+- **SVG는 Internet Explorer 및 Edge Legacy에서 기본적으로 포커스를 받습니다.** SVG를 포함할 때 `focusable="false"`를 `<svg>` 요소에 추가하세요. [Stack Overflow에서 자세히 알아보세요.](https://stackoverflow.com/questions/18646111/disable-onfocus-event-for-svg-element)
 
-- **When using SVGs with `<img>` elements, screen readers may not announce them as images, or skip the image completely.** Include an additional `role="img"` on the `<img>` element to avoid any issues. [See this article for details.](https://simplyaccessible.com/article/7-solutions-svgs/#acc-heading-2)
+- **`<img>` 요소로 SVG를 사용할 때 스크린 리더는 이를 이미지로 알리지 않거나 이미지를 완전히 건너뛸 수 있습니다.** 문제를 방지하려면 `<img>` 요소에 추가적으로 `role="img"`를 포함시켜야 합니다. [자세한 사항을 이 글에서 확인해보세요.](https://simplyaccessible.com/article/7-solutions-svgs/#acc-heading-2)
 
-- **External SVG sprites may not function correctly in Internet Explorer.** Use the [svg4everybody](https://github.com/jonathantneal/svg4everybody) polyfill as needed.
+- **Internet Explorer에서는 외부 SVG 스프라이트가 정상적으로 작동하지 않을 수 있습니다.** 필요하다면 [svg4everybody](https://github.com/jonathantneal/svg4everybody) 폴리필(polyfill)을 사용해보세요.
 
-Found another issue with SVGs we should note? Please open [an issue]({{< param repo >}}/issues) to share details.
+SVG와 관련된 다른 문제를 발견하셨나요? [이슈]({{< param repo >}}/issues)를 만들어서 세부 사항을 공유해주세요.
 {{< /md >}}
   </div>
 </div>

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="ko">
   <head>
     {{ partial "head" . }}
   </head>
@@ -21,8 +21,8 @@
 
           {{ if or .Params.tags .Params.categories -}}
           <ul class="list-unstyled mb-3 mb-md-0">
-            {{ with .Params.tags }}<li><strong>Tags:</strong> {{ delimit . ", " }}</li>{{ end }}
-            {{ with .Params.categories }}<li><strong>Category:</strong> {{ delimit . ", " }}</li>{{ end }}
+            {{ with .Params.tags }}<li><strong>태그:</strong> {{ delimit . ", " }}</li>{{ end }}
+            {{ with .Params.categories }}<li><strong>카테고리:</strong> {{ delimit . ", " }}</li>{{ end }}
           </ul>
           {{- end }}
         </div>
@@ -43,7 +43,7 @@
             {{ $svgHtml }}
           </div>
 
-          <h2>Examples</h2>
+          <h2>예제</h2>
           <div class="p-3 p-md-4 border rounded-3 icon-demo-examples">
             <div class="fs-2 mb-3">
               {{ $svgHtml }}
@@ -104,20 +104,20 @@
           </div>
         </div>
         <div class="col-lg-4 mb-4">
-          <h2 class="fs-3">Download</h2>
-          <p>Download the SVG to use or edit.</p>
-          <a href="{{ $svgPath }}" class="btn btn-bd-primary mb-4" download>Download SVG</a>
+          <h2 class="fs-3">다운로드</h2>
+          <p>사용하거나 수정하려면 SVG를 다운로드하세요.</p>
+          <a href="{{ $svgPath }}" class="btn btn-bd-primary mb-4" download>SVG 다운로드</a>
 
-          <h2 class="fs-3">Icon font</h2>
-          <p>Using the web font? Copy, paste, and go.</p>
+          <h2 class="fs-3">아이콘 폰트</h2>
+          <p>웹 폰트를 사용하시고 계신가요? 복사해서 붙여넣기만 하면 됩니다.</p>
 
           <div class="mb-4">
             {{ $iconFontSnippet := printf `<i class="bi bi-%s"></i>` .File.TranslationBaseName -}}
             {{- highlight $iconFontSnippet "html" "" }}
           </div>
 
-          <h2 class="fs-3">Copy HTML</h2>
-          <p>Paste the SVG right into your project's code.</p>
+          <h2 class="fs-3">HTML 복사</h2>
+          <p>프로젝트 코드에 SVG를 붙여넣기만 하면 됩니다.</p>
 
           <div id="copy-error-callout" class="alert alert-info d-none" role="alert"></div>
 

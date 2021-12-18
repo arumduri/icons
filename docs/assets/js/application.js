@@ -5,7 +5,7 @@
 (function () {
   'use strict'
 
-  var btnHtml = '<div class="bd-clipboard"><button type="button" class="btn-clipboard" title="Copy to clipboard"><svg class="bi" width="1em" height="1em" fill="currentColor"><use xlink:href="/bootstrap-icons.svg#clipboard"/></svg></button></div>';
+  var btnHtml = '<div class="bd-clipboard"><button type="button" class="btn-clipboard" title="클립보드로 복사"><svg class="bi" width="1em" height="1em" fill="currentColor"><use xlink:href="/bootstrap-icons.svg#clipboard"/></svg></button></div>';
 
   [].slice.call(document.querySelectorAll('div.highlight'))
     .forEach(function (element) {
