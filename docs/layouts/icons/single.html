@@ -116,6 +116,26 @@
             {{- highlight $iconFontSnippet "html" "" }}
           </div>
 
+          <h2 class="fs-3">코드 포인트</h2>
+          <div class="mb-4">
+            {{ $codepoints := getJSON "font/bootstrap-icons.json" -}}
+            {{ $hexCodepoint :=  printf "%X" (int (index $codepoints .File.TranslationBaseName)) }}
+            <ul class="list-unstyled">
+              <li>
+                Unicode: <code>U+{{- $hexCodepoint}}</code>
+              </li>
+              <li>
+                CSS: <code>\{{- $hexCodepoint}}</code>
+              </li>
+              <li>
+                JS: <code>\u{{- $hexCodepoint}}</code>
+              </li>
+              <li>
+                HTML: <code>&amp;#x{{- $hexCodepoint}};</code>
+              </li>
+            </ul>
+          </div>
+
           <h2 class="fs-3">HTML 복사</h2>
           <p>프로젝트 코드에 SVG를 붙여넣기만 하면 됩니다.</p>
 

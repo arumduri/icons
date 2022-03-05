@@ -158,7 +158,7 @@ CSS 내에서 SVG를 사용할 수도 있습니다 (헥스 색상 값을 지정�
   <div class="col-md-4">
 {{< md >}}
 ## 접근성
-아이콘을 장식용으로만 쓰는 게 아니라면 적절한 대체 텍스트를 제공해야 합니다. 아이콘을 추가할 때 사용한 방법과 아이콘을 사용하는 위치 (예: 독립 이미지 또는 버튼 또는 유사한 컨트롤의 유일한 컨텐츠)에 따라 다양한 방법이 있습니다. 다음은 몇 가지 예시입니다:
+아이콘을 장식용으로만 쓴다면 `aria-hidden="true"`를 추가해주세요. 그게 아니라면 적절한 대체 텍스트를 제공해야 합니다. 아이콘을 추가할 때 사용한 방법과 아이콘을 사용하는 위치 (예: 독립 이미지 또는 버튼 또는 유사한 컨트롤의 유일한 컨텐츠)에 따라 다양한 방법이 있습니다. 다음은 몇 가지 예시입니다:
 {{< /md >}}
   </div>
   <div class="col-md-8">
@@ -187,13 +187,13 @@ CSS 내에서 SVG를 사용할 수도 있습니다 (헥스 색상 값을 지정�
 {{< /highlight >}}
     <div class="bd-example">
       <button type="button" class="btn btn-primary" aria-label="Mute">
-        <svg class="bi bi-volume-mute-fill" width="32" height="32" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M6.717 3.55A.5.5 0 017 4v8a.5.5 0 01-.812.39L3.825 10.5H1.5A.5.5 0 011 10V6a.5.5 0 01.5-.5h2.325l2.363-1.89a.5.5 0 01.529-.06zm7.137 2.096a.5.5 0 010 .708L12.207 8l1.647 1.646a.5.5 0 01-.708.708L11.5 8.707l-1.646 1.647a.5.5 0 01-.708-.708L10.793 8 9.146 6.354a.5.5 0 11.708-.708L11.5 7.293l1.646-1.647a.5.5 0 01.708 0z"></path></svg>
+        <svg class="bi bi-volume-mute-fill" width="32" height="32" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M6.717 3.55A.5.5 0 017 4v8a.5.5 0 01-.812.39L3.825 10.5H1.5A.5.5 0 011 10V6a.5.5 0 01.5-.5h2.325l2.363-1.89a.5.5 0 01.529-.06zm7.137 2.096a.5.5 0 010 .708L12.207 8l1.647 1.646a.5.5 0 01-.708.708L11.5 8.707l-1.646 1.647a.5.5 0 01-.708-.708L10.793 8 9.146 6.354a.5.5 0 11.708-.708L11.5 7.293l1.646-1.647a.5.5 0 01.708 0z"></path></svg>
       </button>
     </div>
 {{< highlight html >}}
 <!-- aria-label="..." on the control -->
 <button ... aria-label="Mute">
-  <svg class="bi bi-volume-mute-fill" ...>
+  <svg class="bi bi-volume-mute-fill" aria-hidden="true" ...>
   ...
   </svg>
 </button>
