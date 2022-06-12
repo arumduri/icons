@@ -14,8 +14,14 @@
         <h1 class="f0">Bootstrap Icons</h1>
         <p class="mb-4 f3 font-weight-normal">1,600여개의 아이콘이 있는 무료 고품질 오픈 소스 아이콘 라이브러리입니다. SVG, SVG 스프라이트 또는 웹 폰트 등 원하는 대로 사용할 수 있습니다. <a href="{{ .Site.Params.main }}/">Bootstrap</a>을 사용하지 않는 프로젝트에서도 사용할 수 있습니다.</p>
 
-        <div class="fs-5 d-inline-block mb-3">
-          {{ highlight "npm i bootstrap-icons" "sh" "" }}
+        <div class="d-flex flex-column flex-md-row align-items-stretch justify-content-center justify-content-md-start mb-5 fs-5">
+          <div class="fs-5 d-inline-block mb-3 me-md-3 mb-md-0">
+            {{ highlight "npm i bootstrap-icons" "sh" "" }}
+          </div>
+          <a class="btn btn-lg btn-outline-dark d-flex align-items-center justify-content-center" href="{{ .Site.Params.icons_figma }}" target="_blank" rel="noopener">
+            {{ partial "icons/figma.svg" (dict "class" "me-2" "width" "18" "height" "24") }}
+            Open in Figma
+          </a>
         </div>
 
         {{ partialCached "ads" . }}
