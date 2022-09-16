@@ -53,7 +53,7 @@ params:
   description:          "Bootstrap을 위한 공식 오픈 소스 SVG 아이콘 라이브러리"
   social_image_path:    /assets/img/bootstrap-icons-social.png
 
-  version:              "1.8.3"
+  version:              "1.9.1"
   docs_version:         "5.2"
 
   main:                 "https://getbootstrap.kr"
