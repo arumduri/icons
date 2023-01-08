@@ -4,6 +4,18 @@
     <loc>https://icons.getbootstrap.kr/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.kr/icons/0-circle/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/0-circle-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/0-square/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/0-square-fill/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.kr/icons/1-circle/</loc>
   </url>
   <url>
@@ -161,6 +173,9 @@
   </url>
   <url>
     <loc>https://icons.getbootstrap.kr/icons/alt/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/amd/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.kr/icons/android/</loc>
@@ -907,7 +922,82 @@
     <loc>https://icons.getbootstrap.kr/icons/building/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.kr/icons/building-add/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/building-check/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/building-dash/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/building-down/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/building-exclamation/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/building-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/building-fill-add/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/building-fill-check/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/building-fill-dash/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/building-fill-down/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/building-fill-exclamation/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/building-fill-gear/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/building-fill-lock/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/building-fill-slash/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/building-fill-up/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/building-fill-x/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/building-gear/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/building-lock/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/building-slash/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/building-up/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/building-x/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/buildings/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/buildings-fill/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.kr/icons/bullseye/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/bus-front/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/bus-front-fill/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.kr/icons/c-circle/</loc>
@@ -1909,6 +1999,72 @@
     <loc>https://icons.getbootstrap.kr/icons/dash-square-fill/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.kr/icons/database/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/database-add/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/database-check/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/database-dash/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/database-down/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/database-exclamation/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/database-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/database-fill-add/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/database-fill-check/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/database-fill-dash/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/database-fill-down/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/database-fill-exclamation/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/database-fill-gear/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/database-fill-lock/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/database-fill-slash/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/database-fill-up/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/database-fill-x/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/database-gear/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/database-lock/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/database-slash/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/database-up/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/database-x/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.kr/icons/device-hdd/</loc>
   </url>
   <url>
@@ -2161,6 +2317,12 @@
     <loc>https://icons.getbootstrap.kr/icons/envelope/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.kr/icons/envelope-at/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/envelope-at-fill/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.kr/icons/envelope-check/</loc>
   </url>
   <url>
@@ -2240,6 +2402,12 @@
   </url>
   <url>
     <loc>https://icons.getbootstrap.kr/icons/ethernet/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/ev-front/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/ev-front-fill/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.kr/icons/ev-station/</loc>
@@ -3037,6 +3205,18 @@
     <loc>https://icons.getbootstrap.kr/icons/globe/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.kr/icons/globe-americas/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/globe-asia-australia/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/globe-central-south-asia/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/globe-europe-africa/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.kr/icons/globe2/</loc>
   </url>
   <url>
@@ -3250,19 +3430,85 @@
     <loc>https://icons.getbootstrap.kr/icons/house/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.kr/icons/house-add/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/house-add-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/house-check/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/house-check-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/house-dash/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/house-dash-fill/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.kr/icons/house-door/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.kr/icons/house-door-fill/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.kr/icons/house-down/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/house-down-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/house-exclamation/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/house-exclamation-fill/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.kr/icons/house-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/house-gear/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/house-gear-fill/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.kr/icons/house-heart/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.kr/icons/house-heart-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/house-lock/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/house-lock-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/house-slash/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/house-slash-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/house-up/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/house-up-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/house-x/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/house-x-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/houses/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/houses-fill/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.kr/icons/hr/</loc>
@@ -3272,6 +3518,9 @@
   </url>
   <url>
     <loc>https://icons.getbootstrap.kr/icons/hypnotize/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/sprite/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.kr/icons/</loc>
@@ -3745,6 +3994,9 @@
     <loc>https://icons.getbootstrap.kr/icons/nut-fill/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.kr/icons/nvidia/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.kr/icons/octagon/</loc>
   </url>
   <url>
@@ -3913,6 +4165,9 @@
     <loc>https://icons.getbootstrap.kr/icons/person/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.kr/icons/person-add/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.kr/icons/person-badge/</loc>
   </url>
   <url>
@@ -3934,7 +4189,46 @@
     <loc>https://icons.getbootstrap.kr/icons/person-dash-fill/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.kr/icons/person-down/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/person-exclamation/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.kr/icons/person-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/person-fill-add/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/person-fill-check/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/person-fill-dash/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/person-fill-down/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/person-fill-exclamation/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/person-fill-gear/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/person-fill-lock/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/person-fill-slash/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/person-fill-up/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/person-fill-x/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/person-gear/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.kr/icons/person-heart/</loc>
@@ -3946,6 +4240,9 @@
     <loc>https://icons.getbootstrap.kr/icons/person-lines-fill/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.kr/icons/person-lock/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.kr/icons/person-plus/</loc>
   </url>
   <url>
@@ -3955,7 +4252,19 @@
     <loc>https://icons.getbootstrap.kr/icons/person-rolodex/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.kr/icons/person-slash/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.kr/icons/person-square/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/person-up/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/person-vcard/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/person-vcard-fill/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.kr/icons/person-video/</loc>
@@ -4255,6 +4564,9 @@
     <loc>https://icons.getbootstrap.kr/icons/reddit/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.kr/icons/regex/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.kr/icons/repeat/</loc>
   </url>
   <url>
@@ -4292,6 +4604,18 @@
   </url>
   <url>
     <loc>https://icons.getbootstrap.kr/icons/robot/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/rocket/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/rocket-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/rocket-takeoff/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/rocket-takeoff-fill/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.kr/icons/router/</loc>
@@ -4334,6 +4658,9 @@
   </url>
   <url>
     <loc>https://icons.getbootstrap.kr/icons/scissors/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/scooter/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.kr/icons/screwdriver/</loc>
@@ -4474,6 +4801,78 @@
     <loc>https://icons.getbootstrap.kr/icons/shuffle/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.kr/icons/sign-dead-end/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/sign-dead-end-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/sign-do-not-enter/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/sign-do-not-enter-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/sign-intersection/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/sign-intersection-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/sign-intersection-side/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/sign-intersection-side-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/sign-intersection-t/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/sign-intersection-t-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/sign-intersection-y/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/sign-intersection-y-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/sign-merge-left/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/sign-merge-left-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/sign-merge-right/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/sign-merge-right-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/sign-no-left-turn/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/sign-no-left-turn-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/sign-no-parking/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/sign-no-parking-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/sign-no-right-turn/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/sign-no-right-turn-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/sign-railroad/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/sign-railroad-fill/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.kr/icons/sign-stop/</loc>
   </url>
   <url>
@@ -4541,6 +4940,9 @@
   </url>
   <url>
     <loc>https://icons.getbootstrap.kr/icons/sim-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/sina-weibo/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.kr/icons/skip-backward/</loc>
@@ -4792,6 +5194,12 @@
     <loc>https://icons.getbootstrap.kr/icons/strava/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.kr/icons/stripe/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/subscript/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.kr/icons/subtract/</loc>
   </url>
   <url>
@@ -4840,6 +5248,9 @@
     <loc>https://icons.getbootstrap.kr/icons/sunset-fill/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.kr/icons/superscript/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.kr/icons/symmetry-horizontal/</loc>
   </url>
   <url>
@@ -4871,6 +5282,12 @@
   </url>
   <url>
     <loc>https://icons.getbootstrap.kr/icons/tags-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/taxi-front/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/taxi-front-fill/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.kr/icons/telegram/</loc>
@@ -4918,6 +5335,9 @@
     <loc>https://icons.getbootstrap.kr/icons/telephone-x-fill/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.kr/icons/tencent-qq/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.kr/icons/terminal/</loc>
   </url>
   <url>
@@ -4952,6 +5372,9 @@
   </url>
   <url>
     <loc>https://icons.getbootstrap.kr/icons/text-right/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/text-wrap/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.kr/icons/textarea/</loc>
@@ -5081,6 +5504,9 @@
   </url>
   <url>
     <loc>https://icons.getbootstrap.kr/icons/tree-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/trello/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.kr/icons/triangle/</loc>
@@ -5339,6 +5765,9 @@
   </url>
   <url>
     <loc>https://icons.getbootstrap.kr/icons/wifi-off/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.kr/icons/wikipedia/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.kr/icons/wind/</loc>
