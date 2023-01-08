@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /font/
 ---
 
 ## 설치
@@ -69,7 +71,13 @@ SVG 스프라이트를 사용해서 `<use>` 요소로 아이콘을 삽입합니�
 {{< /md >}}
   </div>
   <div class="col-md-8">
-{{< example >}}
+
+<div class="bd-example" style="font-size: 32px;">
+  <i class="bi bi-heart-fill"></i>
+  <i class="bi bi-toggles"></i>
+  <i class="bi bi-shop"></i>
+</div>
+{{< highlight html >}}
 <svg class="bi" width="32" height="32" fill="currentColor">
   <use xlink:href="bootstrap-icons.svg#heart-fill"/>
 </svg>
@@ -79,7 +87,7 @@ SVG 스프라이트를 사용해서 `<use>` 요소로 아이콘을 삽입합니�
 <svg class="bi" width="32" height="32" fill="currentColor">
   <use xlink:href="bootstrap-icons.svg#shop"/>
 </svg>
-{{< /example >}}
+{{< /highlight >}}
   </div>
 </div>
 
@@ -174,14 +182,7 @@ CSS 내에서 SVG를 사용할 수도 있습니다 (헥스 색상 값을 지정�
 {{< /highlight >}}
     <div class="bd-example">
       <i class="bi-github" role="img" style="font-size: 2em" aria-label="GitHub"></i>
-    </div>
-{{< highlight html >}}
-<i class="bi-github" role="img" aria-label="GitHub"></i>
-{{< /highlight >}}
-    <div class="bd-example">
-      <svg class="bi" width="32" height="32" fill="currentColor" role="img" aria-label="Tools">
-        <use xlink:href="bootstrap-icons.svg#tools"/>
-      </svg>
+      <i class="bi-tools" role="img" style="font-size: 2em" aria-label="Tools"></i>
     </div>
 {{< highlight html >}}
 <svg class="bi" ... role="img" aria-label="Tools">
