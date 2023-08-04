@@ -32,7 +32,7 @@ composer require twbs/bootstrap-icons
   <div class="col-md-4">
 {{< md >}}
 ### CDN
-CDN을 통해서 아이콘 폰트 스타일시트를 웹사이트 내의 `<head>`나 `@import`를 통해 포함시켜서 빠르게 시작하세요. [아이콘 폰트](#아이콘-폰트) 문서에서 예제를 확인할 수 있습니다.
+jsDelivr를 통해서 아이콘 폰트 스타일시트를 웹사이트 내의 `<head>`나 `@import`를 통해 포함시켜서 빠르게 시작하세요. [아이콘 폰트 문서](#아이콘-폰트)에서 예제를 확인할 수 있습니다.
 
 {{< highlight html >}}
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@{{< param version >}}/font/bootstrap-icons.css">
@@ -99,7 +99,7 @@ Bootstrap Icons의 SVG를 지정 디렉토리에 복사하면 일반 이미지�
 {{< /md >}}
   </div>
   <div class="col-md-8">
-    {{< example >}}<img src="/assets/img/bootstrap.svg" alt="Bootstrap" width="32" height="32">{{< /example >}}
+    {{< example >}}<img src="/assets/icons/bootstrap.svg" alt="Bootstrap" width="32" height="32">{{< /example >}}
   </div>
 </div>
 
@@ -174,11 +174,11 @@ CSS 내에서 SVG를 사용할 수도 있습니다 (헥스 색상 값을 지정�
   </div>
   <div class="col-md-8">
     <div class="bd-example">
-      <img src="/assets/img/bootstrap.svg" alt="Bootstrap" width="32" height="32">
+      <img src="/assets/icons/bootstrap.svg" alt="Bootstrap" width="32" height="32">
     </div>
 {{< highlight html >}}
 <!-- alt="..." on <img> element -->
-<img src="/assets/img/bootstrap.svg" alt="Bootstrap" ...>
+<img src="/assets/icons/bootstrap.svg" alt="Bootstrap" ...>
 {{< /highlight >}}
     <div class="bd-example">
       <i class="bi-github" role="img" style="font-size: 2em" aria-label="GitHub"></i>
