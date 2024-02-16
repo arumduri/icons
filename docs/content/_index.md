@@ -35,11 +35,11 @@ composer require twbs/bootstrap-icons
 jsDelivr를 통해서 아이콘 폰트 스타일시트를 웹사이트 내의 `<head>`나 `@import`를 통해 포함시켜서 빠르게 시작하세요. [아이콘 폰트 문서](#아이콘-폰트)에서 예제를 확인할 수 있습니다.
 
 {{< highlight html >}}
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@{{< param version >}}/font/bootstrap-icons.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@{{< param version >}}/font/bootstrap-icons.min.css">
 {{< /highlight >}}
 
 {{< highlight css >}}
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@{{< param version >}}/font/bootstrap-icons.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@{{< param version >}}/font/bootstrap-icons.min.css");
 {{< /highlight >}}
 {{< /md >}}
   </div>
@@ -218,7 +218,7 @@ SVG는 작업하기에 훌륭하지만 해결해야 할 몇 가지 알려진 단
 
 - **SVG는 Internet Explorer 및 Edge Legacy에서 기본적으로 포커스를 받습니다.** SVG를 포함할 때 `focusable="false"`를 `<svg>` 요소에 추가하세요. [Stack Overflow에서 자세히 알아보세요.](https://stackoverflow.com/questions/18646111/disable-onfocus-event-for-svg-element)
 
-- **`<img>` 요소로 SVG를 사용할 때 스크린 리더는 이를 이미지로 알리지 않거나 이미지를 완전히 건너뛸 수 있습니다.** 문제를 방지하려면 `<img>` 요소에 추가적으로 `role="img"`를 포함시켜야 합니다. [자세한 사항을 이 글에서 확인해보세요.](https://simplyaccessible.com/article/7-solutions-svgs/#acc-heading-2)
+- **`<img>` 요소로 SVG를 사용할 때 스크린 리더는 이를 이미지로 알리지 않거나 이미지를 완전히 건너뛸 수 있습니다.** 문제를 방지하려면 `<img>` 요소에 추가적으로 `role="img"`를 포함시켜야 합니다. [자세한 사항을 이 글에서 확인해보세요.](https://web.archive.org/web/20201112013541/https://simplyaccessible.com/article/7-solutions-svgs/#acc-heading-2)
 
 - **Internet Explorer에서는 외부 SVG 스프라이트가 정상적으로 작동하지 않을 수 있습니다.** 필요하다면 [svg4everybody](https://github.com/jonathantneal/svg4everybody) 폴리필(polyfill)을 사용해보세요.
 
