@@ -26,11 +26,8 @@
           </ul>
           {{- end }}
         </div>
-        <div class="col-md-6 col-lg-4">
-          {{ partialCached "ads" . }}
-        </div>
       </div>
-
+      {{ partialCached "ads" . }}
       <hr class="my-4">
 
       {{- $localSvgPath := printf "/icons/%s.svg" .File.TranslationBaseName -}}
@@ -147,7 +144,6 @@
         </div>
       </div>
     </main>
-    {{- partialCached "ads-footer" . }}
     {{- partialCached "footer" . }}
     {{- partialCached "scripts" . "default" }}
   </body>
