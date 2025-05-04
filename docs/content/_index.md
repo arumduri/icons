@@ -107,14 +107,14 @@ Bootstrap Icons의 SVG를 지정 디렉토리에 복사하면 일반 이미지�
   <div class="col-md-4">
 {{< md >}}
 ### 아이콘 폰트
-각 아이콘의 클래스를 가진 아이콘 폰트도 Bootstrap Icons에 포함되어 있습니다. CSS를 통해 페이지 내에 아이콘 웹 폰트를 넣어 필요에 따라 HTML 내에서 클래스를 사용할 수 있습니다 (예: `<i class="bi-alarm-clock"></i>`).
+각 아이콘의 클래스를 가진 아이콘 폰트도 Bootstrap Icons에 포함되어 있습니다. CSS를 통해 페이지 내에 아이콘 웹 폰트를 넣어 필요에 따라 HTML 내에서 클래스를 사용할 수 있습니다 (예: `<i class="bi bi-alarm"></i>`).
 
 `font-size`나 `color`를 사용해서 아이콘의 모습을 변경할 수 있습니다.
 {{< /md >}}
   </div>
   <div class="col-md-8">
-    {{< example >}}<i class="bi-alarm"></i>{{< /example >}}
-    {{< example >}}<i class="bi-alarm" style="font-size: 2rem; color: cornflowerblue;"></i>{{< /example >}}
+    {{< example >}}<i class="bi bi-alarm"></i>{{< /example >}}
+    {{< example >}}<i class="bi bi-alarm" style="font-size: 2rem; color: cornflowerblue;"></i>{{< /example >}}
   </div>
 </div>
 
