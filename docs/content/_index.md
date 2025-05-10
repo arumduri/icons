@@ -118,7 +118,28 @@ Bootstrap Icons의 SVG를 지정 디렉토리에 복사하면 일반 이미지�
   </div>
 </div>
 
-<div class="row">
+<div class="row my-4">
+  <div class="col-md-4">
+{{< md >}}
+### Sass
+When using Bootstrap in a Sass project, you may need to adjust the `$bootstrap-icons-font-dir` variable to point to where your files are installed (most commonly `node_modules`, assuming you're using npm).
+
+**Heads up!** This is currently required [for Vite](https://github.com/vitejs/vite/issues/11012) and [Parcel](https://github.com/parcel-bundler/parcel/issues/6285) as their Sass compilers aren‘t happy with relative URLs.
+{{< /md >}}
+  </div>
+  <div class="col-md-8">
+{{< highlight scss >}}
+// Update the import directory to point to it‘s location within node_modules
+$bootstrap-icons-font-dir: "bootstrap-icons/font/fonts";
+
+// Import the Sass files as usual
+@import "bootstrap-icons/font/bootstrap-icons";
+
+{{< /highlight >}}
+  </div>
+</div>
+
+<div class="row my-4">
   <div class="col-md-4">
 {{< md >}}
 ### CSS
